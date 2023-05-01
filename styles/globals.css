@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,6 +17,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+button {
+  background-color: #ff4e00!important;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: yellowgreen!important;
 }
 
 @media (prefers-color-scheme: dark) {
