@@ -9,35 +9,17 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-button {
-  background-color: #ff4e00!important;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 0.25rem;
-  font-size: 1rem;
-  cursor: pointer;
-}
-button:hover {
-  background-color: yellowgreen!important;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@layer components {
+  .input {
+    @apply h-10 rounded px-4 outline-none border border-zinc-400 text-sm focus:border-black w-full;
   }
-  body {
-    color: white;
-    background: black;
+  .textarea {
+    @apply rounded px-4 py-2.5 outline-none border border-zinc-400 text-sm focus:border-black resize-none w-full;
+  }
+  .nextButton {
+    @apply bg-[#ff4e00] h-10 rounded text-white text-sm mt-5 disabled:opacity-50;
+  }
+  .prevButton {
+    @apply bg-zinc-600 h-10 rounded text-white text-sm mt-5 disabled:opacity-50;
   }
 }

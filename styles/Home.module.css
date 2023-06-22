@@ -16,13 +16,13 @@
   align-items: center;
   border-radius: 12px;
   background-color: #f9f9f9;
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3)
-
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
+  margin-top: 100px;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,18 @@
   height: 2rem;
   margin: 0 0.3rem;
 }
-
+.button {
+  background-color: #ff4e00 !important;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: yellowgreen !important;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;

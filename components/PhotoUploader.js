@@ -17,7 +17,7 @@ function PhotoUploader() {
         {({ getRootProps, getInputProps }) => (
           <div {...getRootProps()}>
             <input {...getInputProps()} />
-            {show && <button>Fotograf Yukle</button>}
+            {show && <button>Add Your Foto</button>}
           </div>
         )}
       </Dropzone>
