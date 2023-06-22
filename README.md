@@ -1,2 +1,2 @@
 DEMO
-https://cv-oivhz4mpp-hakanarslantepe.vercel.app/
+https://cv-app-hakanarslantepe.vercel.app/
